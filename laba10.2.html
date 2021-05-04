@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script2.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="encrypt();">
+    <div id="form">
+      <div id="title" class="labels">Шифр Гронсфельда</div>
+
+      <div id="key1" class="labels">Ключ:</div>
+      <div id="key" class="data_area"></div>
+      <div id="chiper1" class="labels">Шифр:</div>
+      <div id="cipher" class="data_area"></div>
+      <div id="decrypt1" class="labels">Дешифровка:</div>
+
+      <input
+        type="text"
+        name="decrypt"
+        id="input_decryption"
+        placeholder="Введите дешифрованный текст..."
+      />
+      <div id="res"></div>
+      <div
+        id="div_button_accept_decryption"
+        onclick="correctDecipherment();"
+      ></div>
+      <div id="text">Проверить</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+function crypt(message, key, decrypt) {
+  var a = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ".split("");
+
+  message = message.split("");
+
+  key = ("" + key).split("");
+
+  return message.reduce(function (message, current) {
+    var i = a.indexOf(current),
+      b = +key.shift();
+
+    key.push(b);
+
+    decrypt
+      ? ((i -= b), i < 0 && (i += a.length))
+      : ((i += b), (i %= a.length));
+
+    return message + a[i];
+  }, "");
+}

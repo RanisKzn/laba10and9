@@ -1,0 +1,132 @@
+#form {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+
+  background: #c4c4c4;
+}
+#title {
+  position: absolute;
+  width: 181px;
+  height: 26px;
+  left: 160px;
+  top: 18px;
+
+  font-family: Paprika;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #000000;
+}
+#key1 {
+  position: absolute;
+  width: 51px;
+  height: 21px;
+  left: 33px;
+  top: 50px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #000000;
+}
+#key {
+  position: absolute;
+  width: 245px;
+  height: 21px;
+  left: 110px;
+  top: 50px;
+
+  background: #ffffff;
+}
+#chiper1 {
+  position: absolute;
+  width: 55px;
+  height: 21px;
+  left: 33px;
+  top: 92px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #000000;
+}
+#cipher {
+  position: absolute;
+  width: 245px;
+  height: 21px;
+  left: 110px;
+  top: 92px;
+
+  background: #ffffff;
+}
+#input_decryption {
+  position: absolute;
+  width: 245px;
+  height: 21px;
+  left: 168px;
+  top: 140px;
+
+  background: #ffffff;
+}
+#decrypt1 {
+  position: absolute;
+  width: 114px;
+  height: 21px;
+  left: 33px;
+  top: 140px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #000000;
+}
+#res {
+  position: absolute;
+  width: 208px;
+  height: 42px;
+  left: 154px;
+  top: 237px;
+
+  background: #000000;
+}
+#div_button_accept_decryption {
+  position: absolute;
+  width: 208px;
+  height: 42px;
+  left: 154px;
+  top: 181px;
+
+  background: #000000;
+}
+#text {
+  position: absolute;
+  width: 92px;
+  height: 21px;
+  left: 212px;
+  top: 192px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
